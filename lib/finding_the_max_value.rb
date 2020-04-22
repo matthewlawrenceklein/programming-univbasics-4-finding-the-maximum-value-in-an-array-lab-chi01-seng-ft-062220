@@ -8,5 +8,4 @@ def find_max_value(array)
         end
       i++
   end
-  return currentValue
 end
