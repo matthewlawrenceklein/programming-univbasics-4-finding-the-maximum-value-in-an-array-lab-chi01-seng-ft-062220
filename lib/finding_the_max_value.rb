@@ -3,9 +3,9 @@ def find_max_value(array)
   currentValue = nil
   i = array[0]
   while i < array.length do
-        if array[i] > currentValue
-            currentValue == array[i]
-        end
-      i++
+        # if array[i] > currentValue
+        #     currentValue == array[i]
+        # end
+      i+=1
   end
 end
