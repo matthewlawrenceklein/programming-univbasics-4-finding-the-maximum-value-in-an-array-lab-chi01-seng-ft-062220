@@ -2,12 +2,11 @@ def find_max_value(array)
   # Add your solution here
   currentValue = nil
   i = array[0]
-
   while i < array.length do
-        if array[i] > currentValue
+        if array[i] > currentValue do
             currentValue == array[i]
         end
-    i++
+        i++
   end
   return currentValue
 end
